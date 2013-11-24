@@ -1,3 +1,4 @@
+#!/bin/sh
 echo "Begining upload to github"
 git add * 
 git add .htaccess
