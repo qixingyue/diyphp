@@ -1,6 +1,6 @@
 #!/bin/sh
 
-current_date=`date +%Y%m%d%H%i%s`
+current_date=`date +%Y%m%d%H%M%s`
 current_message="commit at $current_date"
 echo "Begining upload to github"
 echo $current_message >> "commit.html"
