@@ -10,4 +10,5 @@ git add .htaccess
 git commit -m "$current_message"
 git push origin master
 
-
+echo "Getting year from server:"
+ssh tianmenserver@itianmen.com "date +%Y"
